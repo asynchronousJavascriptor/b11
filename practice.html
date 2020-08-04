@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="practice.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div id="one"></div>
+    <div id="two">
+        
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js" integrity="sha512-pCPP9sfLW9T7EZiw725jUl+ux032sjGhFE+ZAx00C1iO55ZmZJWpfNGbDf2ZF5b0UqxRqSW548PbZEWmH+S7pA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.js" integrity="sha512-SlylYdBDASiaMlfQSS5pvjaWTpGm4ma/FHHUivglIm0uwMK0wDlfmGTePHxqDCLWWmiT7GaXEF644y+ufU7njQ==" crossorigin="anonymous"></script>
+    <script>
+        gsap.from('#two', {
+            scrollTrigger: {
+                trigger: '#two',
+                markers: true,
+                toggleActions: "play pause resume reverse",
+                start: "center bottom"
+            },
+            duration: 1,
+            y: 100,
+            ease: 'expo.easeInOut'
+        })
+    </script>
+
+</body>
+</html>

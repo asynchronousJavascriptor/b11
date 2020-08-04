@@ -1,0 +1,21 @@
+UI UX Process
+
+- Brand Evaluation
+	- duration from brand is active - 2.5 yrs
+	- type of clients brand deals with - really modern design lovers and clean design lovers
+	- what are the goals and accomplisments of the brand - accomplishment ( from nowhere to the (somewhat) biggest institute )
+	- more details about the brand and their relation with the customers ( very very attached and trustful relation )
+
+- Design Process
+	DETAILS
+		- main colors of the brand - mustard yellow, white, pinkish red, peter river, black
+		- thinking of the brand - modern, clean & minimalistic thinking
+		- category of the brand - clean and minimal
+		- problems which brand is facing - our website is kind of old, we need more clients to get converted via our website
+		- fonts which brand is attached with - montserrat, product sans, gilroy
+		- logo of the brand - yes
+		- name of the brand - The Sheryians Coding School
+	PROCESS
+		- high fidelity wireframing   - in progress
+		THEME OF THE WEBSITE
+			clean & minimal
