@@ -894,6 +894,11 @@ body > h5 i{
 
 
 @media(max-width: 600px){
+    #fscr a{
+        font-size: 15px;
+        font-weight: 600;
+    }
+
     nav{
         padding: 0 30px;
     }
