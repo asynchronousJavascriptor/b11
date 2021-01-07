@@ -6,25 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home | Sheryians Coding School</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script>
+        function closet(){
+            document.querySelector('#fscr').style.left = '-110%';
+        }
+
+        function opent(){
+            document.querySelector('#fscr').style.left = '0%';
+        }
+    </script>
 </head>
 
 <body>
+
+    <div id="fscr">
+        <i onclick="closet()" class="ri-close-line"></i>
+        <a onclick="closet()" href="#brandswork">Our Courses</a>
+        <a onclick="closet()" target="_blank" href="https://instagram.com/sheryians_coding_school">Student's Design Creation</a>
+        <a onclick="closet()" href="tel:7828994540">Enquiry</a>
+    </div>
+
     <nav id="nav">
         <img src="./Images/logo.png" alt="">
         <div id="links">
-            <a href="#">Our Courses</a>
-            <a href="#">Student's Design Creation</a>
-            <a href="#">FAQ</a>
+            <a href="#brandswork">Our Courses</a>
+            <a target="_blank" href="https://instagram.com/sheryians_coding_school">Student's Design Creation</a>
+            <a href="tel:7828994540">Enquiry</a>
         </div>
-        <a href="#">
+        <a onclick="opent()" href="#">
             <i class="ri-menu-2-line"></i> Menu
         </a>
     </nav>
     <div id="main">
-        <h1 class="elem">Join the army of 1000+ Sheryians &<br>create world class applications, with<br>really amazing UI's</h1>
+        <h1 class="elem">Join the army of 1000+ Sheryians &<br>create world class applications, with<br>really amazing
+            UI's</h1>
         <h5 class="elem">we'll make Bhopal known for Designing and Coding, You can join us in our mission too.</h5>
         <i class="elem ri-arrow-down-s-line"></i>
         <a class="elem" href="tel:7828994540">Contact to resolve Queries.</a>
@@ -34,9 +53,8 @@
     </div>
     <div id="entryLevel">
         <h2 class="entrelem">Entry Level Courses</h2>
-        <p class="entrelem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, sapiente amet. Quaerat unde incidunt saepe
-            inventore. Perspiciatis voluptates repudiandae laborum ad cupiditate ducimus odio blanditiis omnis fuga a
-            soluta, autem inventore error nobis.</p>
+        <p class="entrelem">starting your coding journey ?, here's what you can start with, these are our entry level
+            beginner freindly courses.</p>
         <div class="entrelem" id="entrcourses">
             <div class="entrelem crs">
                 <h3>UI/UX Web Design & Development</h3>
@@ -53,7 +71,8 @@
             <div class="entrelem crs">
                 <h3>Python for Beginners.</h3>
                 <div class="crsimg">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png" alt="">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png"
+                        alt="">
                 </div>
             </div>
         </div>
@@ -67,7 +86,8 @@
         <div class="crselem rightcrsbnr">
             <h1>Most Cutting-Edge, Latest Trends Based<br><span>Web Development Course</span>.</h1>
             <h3>In this course, we learn to create awesome websites,<br> web experiences/designs & apps.</h3>
-            <p>Out of many, Web Development is one of our most selling course, it's completely based on projects and learning great coding & designing practices.</p>
+            <p>Out of many, Web Development is one of our most selling course, it's completely based on projects and
+                learning great coding & designing practices.</p>
             <a href="tel:7828994540">Get Info. about the course.</a>
         </div>
     </div>
@@ -88,12 +108,14 @@
         </div>
         <a class="brelem" href="tel:7828994540">
             <i class="ri-arrow-right-circle-line"></i> enroll now
-        </a>        
+        </a>
     </div>
     <div id="showcaseGreen">
         <div id="detsShwGreen">
-            <h1 class="shwelem">" The need to be right all the time is the biggest bar there is to new ideas. "<br><br>We create designers and coders, who create great stuff.</h1>
-            <a target="_blank" class="shwelem" href="https://instagram.com/sheryians_coding_school"><i class="ri-arrow-drop-right-line"></i>Visit & Feel It</a>
+            <h1 class="shwelem">" The need to be right all the time is the biggest bar there is to new ideas.
+                "<br><br>We create designers and coders, who create great stuff.</h1>
+            <a target="_blank" class="shwelem" href="https://instagram.com/sheryians_coding_school"><i
+                    class="ri-arrow-drop-right-line"></i>Visit & Feel It</a>
         </div>
         <div id="imageWrapper">
             <img class="shwelem" src="./Images/greenApp.png" alt="greenAppDesign">
@@ -101,8 +123,10 @@
     </div>
     <div id="stats">
         <div id="statstext">
-                <h5 class="sttselem">Join one of the most actively contributing <span>coding and designing</span> institute of <b>Madhya Pradesh</b></h5>
-                <h2 class="sttselem">We never wanted to be just one more <span id="cursv">coaching</span> in this city & that's why we became more than that.</h2>
+            <h5 class="sttselem">Join one of the most actively contributing <span>coding and designing</span> institute
+                of <b>Madhya Pradesh</b></h5>
+            <h2 class="sttselem">We never wanted to be just one more <span id="cursv">coaching</span> in this city &
+                that's why we became more than that.</h2>
         </div>
         <div id="cards">
             <div class="card">
@@ -112,7 +136,8 @@
                     <h1>6</h1>
                     <h3>COURSES</h3>
                     <h5>FEATURE CODING</h5>
-                    <p>Courses which are about coding the apps and creating the applications via coding, in these courses you will learn how to code apps/server/database etc.</p>
+                    <p>Courses which are about coding the apps and creating the applications via coding, in these
+                        courses you will learn how to code apps/server/database etc.</p>
                     <a href="tel:7828994540">Enquire About Courses</a>
                 </div>
             </div>
@@ -123,7 +148,9 @@
                     <h1>3</h1>
                     <h3>COURSES</h3>
                     <h5>FEATURE DESIGNING</h5>
-                    <p>Courses which are about designing the web experiences or mobile apps and creating their look and feel via designing tools, in these courses you will learn how to design apps/server/database with softwares like Photoshop, Figma, Adobe XD & Cinema 4D.</p>
+                    <p>Courses which are about designing the web experiences or mobile apps and creating their look and
+                        feel via designing tools, in these courses you will learn how to design apps/server/database
+                        with softwares like Photoshop, Figma, Adobe XD & Cinema 4D.</p>
                     <a href="#">Enquire About Courses</a>
                 </div>
             </div>
@@ -131,7 +158,8 @@
     </div>
     <div id="footer">
         <div class="leftftr">
-            <h3>Talent is cheaper than table salt. What separates the talented individual from the successful one is a lot of hard work.</h3>
+            <h3>Talent is cheaper than table salt. What separates the talented individual from the successful one is a
+                lot of hard work.</h3>
             <div class="imgsppl">
                 <div class="imgppl"></div>
                 <div class="imgppl"></div>
@@ -150,8 +178,12 @@
     </div>
     <h5>Website Created with <i class="ri-heart-3-fill"></i> in The Sheryians Coding School by Batch B10-B10'</h5>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js" integrity="sha512-pCPP9sfLW9T7EZiw725jUl+ux032sjGhFE+ZAx00C1iO55ZmZJWpfNGbDf2ZF5b0UqxRqSW548PbZEWmH+S7pA==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.js" integrity="sha512-SlylYdBDASiaMlfQSS5pvjaWTpGm4ma/FHHUivglIm0uwMK0wDlfmGTePHxqDCLWWmiT7GaXEF644y+ufU7njQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"
+        integrity="sha512-pCPP9sfLW9T7EZiw725jUl+ux032sjGhFE+ZAx00C1iO55ZmZJWpfNGbDf2ZF5b0UqxRqSW548PbZEWmH+S7pA=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.js"
+        integrity="sha512-SlylYdBDASiaMlfQSS5pvjaWTpGm4ma/FHHUivglIm0uwMK0wDlfmGTePHxqDCLWWmiT7GaXEF644y+ufU7njQ=="
+        crossorigin="anonymous"></script>
     <script src="./script.js"></script>
 </body>
 

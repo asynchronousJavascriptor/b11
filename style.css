@@ -21,6 +21,38 @@ html{
     scroll-behavior: smooth;
 }
 
+#fscr{
+    position: fixed;
+    z-index: 99999999;
+    top: 0;
+    left: -110%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+#fscr i{
+    position: absolute;
+    top: 4%;
+    right: 4%;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+#fscr a{
+    font-size: 30px;
+    margin-top: 20px;
+    color: #777;
+}
+#fscr a:hover{
+    color: black;
+}
+
 nav{
     display: flex;
     align-items: center;
