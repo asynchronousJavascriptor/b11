@@ -573,7 +573,7 @@ nav>a>i{
     /* margin-top: 30px; */
     font-family: "Shaloems";
     font-size: 70px;
-    line-height: 60px;
+    /* line-height: 60px; */
     vertical-align: middle;
 }
 
@@ -984,10 +984,14 @@ body > h5 i{
         font-size: 25px;
     }
     .brands{
+        display: initial;
         width: 100%;
         margin-left: -30px;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
+    }
+    .brands:nth-child(3){
+        width: 100%;
     }
     .brands h4{
         opacity: .25;
