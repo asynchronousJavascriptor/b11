@@ -3,6 +3,10 @@
     src: url('./fonts/Gilroy-Medium.ttf');
 }
 
+@font-face{
+    font-family: 'Shaloems';
+    src: url('./fonts/Shaloems.ttf');
+}
 
 *{
     margin: 0;
