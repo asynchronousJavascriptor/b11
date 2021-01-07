@@ -641,8 +641,8 @@ nav>a>i{
     border-radius: 10px;
     -webkit-box-shadow: 0 30px 25px -30px rgba(0,0,0,0.8);
             box-shadow: 0 30px 25px -30px rgba(0,0,0,0.8);
-    background: -webkit-gradient(linear, left top, right bottom, from(#222), to(#000));
     background: -o-linear-gradient(left top, #222, #000);
+    background: -webkit-gradient(linear, left top, right bottom, from(#222), to(#000));
     background: linear-gradient(to right bottom, #222, #000);
 }
 
@@ -650,8 +650,8 @@ nav>a>i{
     border-radius: 10px;
     -webkit-box-shadow: 0 30px 25px -30px rgba(0,0,0,0.5);
             box-shadow: 0 30px 25px -30px rgba(0,0,0,0.5);
-    background: -webkit-gradient(linear, left top, right bottom, from(rgb(156, 236, 187)), to(rgb(52, 146, 107)));
     background: -o-linear-gradient(left top, rgb(156, 236, 187), rgb(52, 146, 107));
+    background: -webkit-gradient(linear, left top, right bottom, from(rgb(156, 236, 187)), to(rgb(52, 146, 107)));
     background: linear-gradient(to right bottom, rgb(156, 236, 187), rgb(52, 146, 107));
 }
 
