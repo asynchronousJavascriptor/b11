@@ -17,6 +17,10 @@ html,body{
     height: 100%;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 nav{
     display: flex;
     align-items: center;
@@ -169,22 +173,29 @@ nav>a>i{
 .crs .crsimg{
     width: 60px;
     height: 60px;
-    background-color: #e3e3e3;
+    background-color: #ffffff;
     border-radius: 4px;
+    overflow: hidden;
+}
+
+.crs .crsimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .crs:nth-child(1) h3{
-    color: rgb(85, 173, 231);
+    color: rgb(6, 176, 182);
     font-weight: 700;
 }
 
 .crs:nth-child(2) h3{
-    color: rgb(255, 176, 6);
+    color: rgb(209, 59, 59);
     font-weight: 700;
 }
 
 .crs:nth-child(3) h3{
-    color: rgb(224, 104, 204);
+    color: rgb(56, 90, 163);
     font-weight: 700;
 }
 
@@ -217,9 +228,14 @@ nav>a>i{
     font-size: 34px;
 }
 
+.rightcrsbnr h1 span{
+    color: #ee749b;
+}
+
+
 .rightcrsbnr h3{
     font-weight: 500;
-    margin-top: 3px;
+    margin-top: 6px;
     margin-bottom: 10px;
 }
 
@@ -227,25 +243,33 @@ nav>a>i{
     font-size: 12px;
     width: 80%;
     line-height: 16px;
+    margin: 20px 0 10px 0;
 }
 
 .crsimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 90%;
-    height: 360px;
+    min-height: 360px;
     border-radius: 10px;
     box-shadow: 0 40px 50px -45px rgba(0,0,0,0.3);
-    background-color: #f7f7f7;
+    background-color: #F8B3C9;
+}
+
+.crsimage img{
+    width: 100%;
 }
 
 .rightcrsbnr a{
     display: inline-block;
     text-decoration: none;
-    background-color: rgb(255, 176, 6);
+    background-color: #ee749b;
     color: #fff;
     padding: 14px 36px;
     margin-top: 20px;
     border-radius: 100px;
-    box-shadow: 0 15px 45px 1px rgba(255, 176, 6, 0.4);
+    box-shadow: 0 15px 45px 1px #ff94b6ce;
 }
 
 #brandswork{
@@ -256,7 +280,7 @@ nav>a>i{
     width: 90%;
     margin: 0 auto;
     min-height: 200px;
-    margin-top: 30px;
+    margin-top: 150px;
     margin-bottom: 30px;
     background-color: #fff;
 }
@@ -376,6 +400,17 @@ nav>a>i{
     align-items: center;
 }
 
+#cursv{
+    display: inline-block;
+    margin-top: -40px;
+    margin-left: 10px;
+    /* margin-top: 30px; */
+    font-family: "shaloems";
+    font-size: 70px;
+    line-height: 60px;
+    vertical-align: middle;
+}
+
 #stats h5{
     color: #929292;
     letter-spacing: .2px;
@@ -421,7 +456,7 @@ nav>a>i{
     justify-content: center;
     overflow: hidden;
     position: relative;
-    width: 30%;
+    width: 26%;
     min-height: 450px;
 }
 
@@ -573,19 +608,19 @@ nav>a>i{
 
 .imgppl:nth-child(1){
     margin-left: 0px;
-    background-image: url(https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80);
+    background-image: url(https://images.unsplash.com/photo-1609894825087-787208428b2c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
     background-size: cover;
     background-position: center;
 }
 
 .imgppl:nth-child(2){
-    background-image: url(https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+    background-image: url(https://images.unsplash.com/photo-1609976702745-f4112734e5e0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
     background-size: cover;
     background-position: center;
 }
 
 .imgppl:nth-child(3){
-    background-image: url(https://images.unsplash.com/photo-1492633423870-43d1cd2775eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-image: url(https://images.unsplash.com/photo-1572853366277-ecbf6650ad8e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80);
     background-size: cover;
     background-position: center;
 }
@@ -629,7 +664,7 @@ body > h5{
     letter-spacing: .4px;
     align-items: center;
     margin-top: 60px;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     color: rgb(73, 73, 73);
     text-align: center;
 }
@@ -717,6 +752,7 @@ body > h5 i{
     }
     #brandswork{
          margin-bottom: 60px;
+         margin-top: 20px;
     }
     #brandswork h1{
         font-size: 25px;
@@ -802,7 +838,16 @@ body > h5 i{
         margin-left: 0px;
     }
     body>h5{
-        margin-top: 40px;
+        display: inline-block;
         font-size: 9px;
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 70px;
+        margin-top: 40px;
+        /* margin: 0 auto; */
+        /* background-color: yellow; */
+    }
+    body>h5>i{
+        margin: 0;
     }
 }
